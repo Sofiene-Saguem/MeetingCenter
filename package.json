@@ -1,0 +1,15 @@
+{
+  "name": "meeting-center",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev\" \"cd event && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.1",
+    "express-validator": "^6.10.0"
+  }
+}
